@@ -92,6 +92,8 @@
    use strict 'subs';
    use feature 'state';
 
+   BEGIN { push @INC, "."; }
+
 #
 # Modules used ( from the current directory to make debugging more convenient; will change later)
 #
